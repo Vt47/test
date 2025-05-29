@@ -1,5 +1,5 @@
-using Microsoft.EntityFrameworkCore;
-using smoking.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using smoking12.Data; // Đảm bảo namespace đúng với project của bạn
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,4 +41,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run(); 
+app.Run();
