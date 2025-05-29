@@ -1,0 +1,6 @@
+@smoking_HostAddress = http://localhost:5103
+
+GET {{smoking_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
